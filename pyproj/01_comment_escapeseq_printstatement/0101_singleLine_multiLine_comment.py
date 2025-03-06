@@ -23,8 +23,13 @@ I Hope You Are Enjoying Learning Python??''')
 
 # example of single line comment
 import os
-# This is a comment
+# This is a single line comment
 print("Main code started")
 
-# Now I will write my code here, It will print the file names in  current python directory
+'''
+This is a multi line comment
+Now I will write my code here, 
+It will print the file names in  
+current python directory
+'''
 print(os.listdir())
